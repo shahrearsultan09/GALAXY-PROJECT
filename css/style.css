@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+/* header section start */
+}
+header{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+.logo{
+    width: 20%;
+    height: 52px;
+}
+.logo img{
+    height: 52px;
+}
+nav{
+    width: 60%;
+    height: 52px;
+    display: flex;
+    justify-content: end;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    padding: 18px;
+     
+}
+header nav ul li{
+    margin-left: 35px;    
+    
+}
+header nav ul li a{
+  text-decoration: none;
+  color: #626262;
+}
+/* header section start */
+
+/* banner start */
+.banner{
+    width: 96%;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 2%;
+
+   
+}
+.banner h2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+}
+.banner button a{
+    text-decoration: none;
+    text-decoration-color: #000000;
+}
+.banner img{
+    width: 100%;
+
+}
+/* banner end */
+/* service heading start */
+.feature{
+    width: 78%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.webdesign{
+    width: 30%;
+    color: #626262;
+}
+.webdesign h2{
+    padding: 0 0 10px 0;
+    font-size: 28px;
+    color: #9a9595;
+    text-align: center;
+    
+}
+.webdesign p{
+    font-size: 18px;
+    text-align: center;
+    color: #9a9595;
+}
+.box{
+    background-color: #2c2b2b;
+    width: 55px;
+    height: 55px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+.box .icon{
+    left: 50%;
+    top: 50%;
+    color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* service heading end*/
+/* article start */
+article{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+h1{
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    font-style: italic;
+    color: #929190;
+
+}
+
+/* article end */
+/* servicec_item01 start */
+.service{
+    width: 90%;
+    margin: auto;
+
+}
+.service_item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.service .service_item .service_item00{
+    width: 30%;
+    
+    
+
+}
+.service .service_item .service_item00 img{
+    width: 100%;
+    height: 242px;
+}
+.service .service_item .service_item00 h3{
+    text-align: center;
+    color: #1d1d1d;
+    padding: 15px;
+}
+.service .service_item .service_item00 h4{
+    text-align: center;
+    font-size: 15px;
+    color: #9b9b9b;
+
+}
+
+/* servicec_item01 end */
+/* blog start */
+.blog{
+    margin-top: 120px;
+    background-color: #f9f9f9;
+    
+}
+.blog h2{
+    text-align: center;
+    padding: 70px;
+   
+    
+}
+.blog .blogitem{
+    width: 90%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blog .blogitem .item{
+    width: 46%;
+
+}
+.blog .blogitem .item img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.blog .blogitem .item h3{
+    color: #626262;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: inline;
+}
+.blog .blogitem .item p{
+    margin-top: 7px;
+    color: #9b9b9b;
+}
+/* blog end */
+/* footer start */
+footer{
+    margin-top: 120px;
+    background-color: #292c34;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer_section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.logosection{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logosection img{
+
+     
+}
+.logosection p{
+    color: #9b9b9b;
+    padding: 15px;
+
+    
+
+}
+.icon{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+
+}
+.icon ul{
+    list-style: none;
+    display: flex;
+
+}
+.icon ul li{
+    padding: 10px;
+    margin-left: 10px;
+    color: #f9f9f9;
+}
+.icon ul li .fa-brands fa-facebook-f{
+    color: #f9f9f9;
+}
+
+.icon ul li a{
+    color: #f9f9f9;
+    
+
+}
+/* footer start */
